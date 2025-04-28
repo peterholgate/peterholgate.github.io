@@ -8,106 +8,85 @@
     <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
     <style type="text/css">
       @font-face { font-family: 'Segoe UI Semilight'; src: url('wpscripts/wpbf7c9a52.ttf'); }
-      .P-1 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .C-1 { line-height:21.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:#eaeaea;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .OBJ-1 { background:#eaeaea;border:1px solid #a3a3a3;border-radius:5px / 5px; }
-      .P-2 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:13.0px;vertical-align:0; }
-      .C-2 { line-height:17.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:#eaeaea;text-decoration:none;font-variant:normal;font-size:13.3px;vertical-align:0; }
-      .OBJ-2 { background:#a3a3a3;border:1px solid #a3a3a3;border-radius:5px / 5px; }
+      .P-1 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:15.0px;vertical-align:0; }
+      .C-1 { line-height:20.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:#eaeaea;text-decoration:none;font-variant:normal;font-size:14.7px;vertical-align:0; }
+      .OBJ-1 { background:#729400; }
+      .P-2 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .C-2 { line-height:21.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:#eaeaea;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .OBJ-2 { background:#eaeaea;border:1px solid #a3a3a3;border-radius:5px / 5px; }
       @font-face { font-family: 'Segoe UI Light'; src: url('wpscripts/wp3017aefd.ttf'); }
       .P-3 { text-align:center;line-height:1px;font-family:"Segoe UI Light", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;font-variant:normal;font-size:9.0px;vertical-align:0; }
       .C-3 { line-height:12.00px;font-family:"Segoe UI Light", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:9.3px;vertical-align:0; }
       .OBJ-3 { background:#eaeaea;border-radius:5px / 5px;outline:1px solid #a3a3a3; }
       .P-4 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;font-variant:normal;font-size:9.0px;vertical-align:0; }
       .C-4 { line-height:12.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:9.3px;vertical-align:0; }
+      a.C-4:link, a:link .C-4, a.C-4:visited, a:visited .C-4, a.C-4:hover, a:hover .C-4, a.C-4:active, a:active .C-4 { color:#393939;text-decoration:none; }
       .OBJ-4 { background:#cdcdcd; }
+      .C-5 { line-height:17.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:#eaeaea;text-decoration:none;font-variant:normal;font-size:13.3px;vertical-align:0; }
       .OBJ-5 { border-radius:5px / 5px; }
-      .P-5 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:15.0px;vertical-align:0; }
-      .C-5 { line-height:20.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:#eaeaea;text-decoration:none;font-variant:normal;font-size:14.7px;vertical-align:0; }
-      .OBJ-6 { background:#729400;border-radius:5px / 5px;outline:1px solid #a3a3a3; }
+      .P-5 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:13.0px;vertical-align:0; }
       .C-6 { line-height:20.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:14.7px;vertical-align:0; }
-      .OBJ-7 { background:#a3a3a3; }
+      .OBJ-6 { background:#a3a3a3; }
       .P-6 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;font-variant:normal;font-size:11.0px;vertical-align:0; }
       .C-7 { line-height:13.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:10.7px;vertical-align:0; }
-      .P-7 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .C-8 { line-height:21.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .OBJ-8 { background:#a3a3a3;border-radius:5px / 5px; }
+      .P-7 { text-align:center;line-height:1px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;font-variant:normal;font-size:19.0px;vertical-align:0; }
+      .C-8 { line-height:25.00px;font-family:"Segoe UI Semilight", sans-serif;font-style:normal;font-weight:normal;color:#4d4d4d;background-color:transparent;text-decoration:none;font-variant:normal;font-size:18.7px;vertical-align:0; }
+      .OBJ-7 { background:#cdcdcd;border-radius:5px / 5px; }
     </style>
   </head>
   <body style="height:1080px;background:#ffffff;">
     <div id="divMain" style="background:#cdcdcd;position:relative;width:1920px;height:1080px;">
-      <div class="OBJ-1" style="position:absolute;left:9px;top:541px;width:40px;height:38px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">Misc</span></p>
+      <div class="OBJ-1" style="position:absolute;left:0px;top:60px;width:1920px;height:41px;overflow:hidden;">
+        <p class="Body P-1"><span class="C-1"><br></span></p>
       </div>
-      <div class="OBJ-2" style="position:absolute;left:480px;top:120px;width:40px;height:39px;overflow:hidden;">
-        <p class="Body P-2"><span class="C-2"><br></span></p>
+      <div class="OBJ-2" style="position:absolute;left:9px;top:541px;width:40px;height:38px;overflow:hidden;">
+        <p class="Body P-2"><span class="C-2">Misc</span></p>
       </div>
-      <div style="position:absolute;left:160px;top:41px;width:208px;height:20px;overflow:hidden;">
-        <p class="Normal2 P-3"><span class="C-3">Updated 21 January 2025</span></p>
+      <div style="position:absolute;left:160px;top:39px;width:208px;height:20px;overflow:hidden;">
+        <p class="Normal2 P-3"><span class="C-3">Updated 28 April 2025</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:121px;width:40px;height:39px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">FIS</span></p>
+        <p class="Body P-2"><span class="C-2">FIS</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:181px;width:41px;height:40px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">MEA</span></p>
+        <p class="Body P-2"><span class="C-2">MEA</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:241px;width:41px;height:40px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">POU</span></p>
+        <p class="Body P-2"><span class="C-2">POU</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:300px;width:41px;height:40px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">SAU</span></p>
+        <p class="Body P-2"><span class="C-2">SAU</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:361px;width:41px;height:40px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">STA</span></p>
+        <p class="Body P-2"><span class="C-2">STA</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:420px;width:41px;height:40px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">SWE</span></p>
+        <p class="Body P-2"><span class="C-2">SWE</span></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:10px;top:481px;width:41px;height:40px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">VEG</span></p>
+        <p class="Body P-2"><span class="C-2">VEG</span></p>
       </div>
-      <div class="OBJ-4" style="position:absolute;left:9px;top:40px;width:41px;height:62px;overflow:hidden;">
-        <p class="Body P-4"><span class="C-4">RECIPE</span></p>
-      </div>
-      <div class="OBJ-4" style="position:absolute;left:60px;top:41px;width:39px;height:20px;overflow:hidden;">
-        <p class="Body P-4"><span class="C-4">LAST</span></p>
-      </div>
-      <div class="OBJ-4" style="position:absolute;left:430px;top:41px;width:40px;height:20px;overflow:hidden;">
-        <p class="Body P-4"><span class="C-4">NEXT</span></p>
+      <div class="OBJ-4" style="position:absolute;left:9px;top:42px;width:41px;height:58px;overflow:hidden;">
+        <p class="Body P-4"><a href="00page79.html" class="C-4">RECIPE</a></p>
       </div>
       <div class="OBJ-3" style="position:absolute;left:161px;top:9px;width:209px;height:22px;overflow:hidden;">
-        <p class="Body"><span class="C-2">&nbsp;Search</span></p>
+        <p class="Body"><span class="C-5">&nbsp;Search</span></p>
       </div>
       <img alt="" src="wpimages/wpacfa66b1_05_01.jpg" class="OBJ-5" style="position:absolute;left:10px;top:60px;width:40px;height:40px;">
-      <a href="00page79.html">
-        <img alt="Page 79 Recipes Main Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:0px;top:41px;width:58px;height:59px;">
-      </a>
-      <div class="OBJ-2" style="position:absolute;left:949px;top:120px;width:40px;height:39px;overflow:hidden;">
-        <p class="Body P-2"><span class="C-2"><br></span></p>
+      <div class="OBJ-2" style="position:absolute;left:9px;top:721px;width:40px;height:38px;overflow:hidden;">
+        <p class="Body P-2"><span class="C-2">EUR</span></p>
       </div>
-      <div class="OBJ-6" style="position:absolute;left:60px;top:61px;width:409px;height:41px;overflow:hidden;">
-        <p class="Body P-5"><span class="C-5"><br></span></p>
-      </div>
-      <div class="OBJ-6" style="position:absolute;left:531px;top:61px;width:409px;height:41px;overflow:hidden;">
-        <p class="Body P-5"><span class="C-5"><br></span></p>
-      </div>
-      <div class="OBJ-6" style="position:absolute;left:1000px;top:61px;width:409px;height:41px;overflow:hidden;">
-        <p class="Body P-5"><span class="C-5"><br></span></p>
-      </div>
-      <div class="OBJ-1" style="position:absolute;left:9px;top:721px;width:40px;height:38px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">EUR</span></p>
-      </div>
-      <div class="OBJ-1" style="position:absolute;left:8px;top:779px;width:40px;height:39px;overflow:hidden;">
-        <p class="Body P-2"><span class="C-2">Help</span></p>
+      <div class="OBJ-2" style="position:absolute;left:8px;top:779px;width:40px;height:39px;overflow:hidden;">
+        <p class="Body P-5"><span class="C-5">Help</span></p>
       </div>
       <a href="00page80.html">
         <img alt="Page 80 Fish Recipe Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:10px;top:122px;width:40px;height:38px;">
       </a>
-      <div class="OBJ-1" style="position:absolute;left:9px;top:661px;width:40px;height:38px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">ASI</span></p>
+      <div class="OBJ-2" style="position:absolute;left:9px;top:661px;width:40px;height:38px;overflow:hidden;">
+        <p class="Body P-2"><span class="C-2">ASI</span></p>
       </div>
-      <div class="OBJ-1" style="position:absolute;left:9px;top:599px;width:40px;height:38px;overflow:hidden;">
-        <p class="Body P-1"><span class="C-1">AME</span></p>
+      <div class="OBJ-2" style="position:absolute;left:9px;top:599px;width:40px;height:38px;overflow:hidden;">
+        <p class="Body P-2"><span class="C-2">AME</span></p>
       </div>
       <a href="00page81.html">
         <img alt="Page 81 Meat Recipe Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:9px;top:180px;width:39px;height:41px;">
@@ -145,20 +124,8 @@
       <a href="https://www.google.com/" target="_blank">
         <img alt="" src="wpimages/wp5533b116.gif" style="position:absolute;left:150px;top:0px;width:230px;height:39px;">
       </a>
-      <div class="OBJ-4" style="position:absolute;left:479px;top:41px;width:41px;height:62px;overflow:hidden;">
-        <p class="Body P-4"><span class="C-4">RECIPE</span></p>
-      </div>
-      <img alt="" src="wpimages/wpacfa66b1_05_01.jpg" class="OBJ-5" style="position:absolute;left:480px;top:60px;width:40px;height:40px;">
-      <a href="00page79.html">
-        <img alt="Page 79 Recipes Main Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:470px;top:42px;width:58px;height:59px;">
-      </a>
-      <div class="OBJ-4" style="position:absolute;left:950px;top:40px;width:41px;height:62px;overflow:hidden;">
-        <p class="Body P-4"><span class="C-4">RECIPE</span></p>
-      </div>
-      <img alt="" src="wpimages/wpacfa66b1_05_01.jpg" class="OBJ-5" style="position:absolute;left:950px;top:60px;width:40px;height:40px;">
-      <a href="00page79.html">
-        <img alt="Page 79 Recipes Main Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:941px;top:41px;width:58px;height:59px;">
-      </a>
+      <img alt="" src="wpimages/wp370427fe_01.png" style="position:absolute;left:439px;top:71px;width:20px;height:18px;">
+      <img alt="" src="wpimages/wpa5675730_01.png" style="position:absolute;left:69px;top:71px;width:20px;height:18px;">
       <img alt="Page 89 Asia Recipe Menu" src="wpimages/wp38039e23_01.png" style="position:absolute;left:144px;top:61px;width:244px;height:30px;">
       <a href="00page90.html">
         <img alt="Page 90 Europea Recipe Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:390px;top:39px;width:79px;height:60px;">
@@ -166,82 +133,82 @@
       <a href="00page88.html">
         <img alt="Page 88 Americas Recipe Menu" src="wpimages/wp5533b116.gif" style="position:absolute;left:61px;top:42px;width:78px;height:59px;">
       </a>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:120px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:120px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2008-<wbr>ASI-<wbr>001-<wbr>Shami Kebabs</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:160px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:160px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2008-<wbr>ASI-<wbr>002-<wbr>Chicken Curry Pressure Cooker</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:200px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:200px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2012-<wbr>ASI-<wbr>003-<wbr>Massaman Curry Slow Cooker</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:240px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:240px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2013-<wbr>ASI-<wbr>004-<wbr>Fishcakes Thai Style</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:281px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:281px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2014-<wbr>ASI-<wbr>005-<wbr>Lamb Rogan Josh</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:320px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:320px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2014-<wbr>ASI-<wbr>006-<wbr>Chicken Tikka using Masala Paste</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:360px;width:411px;height:21px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:360px;width:411px;height:21px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2016-<wbr>ASI-<wbr>007-<wbr>Pakoras (Bhajis) Vegetable</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:400px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:400px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2017-<wbr>ASI-<wbr>008-<wbr>Chana Masaledar</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:440px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:440px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2020-<wbr>ASI-<wbr>009-<wbr>Stir Fry Pork with Ginger and Honey</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:481px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:481px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2020-<wbr>ASI-<wbr>010-<wbr>Aloo Gobi</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:520px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:520px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2020-<wbr>ASI-<wbr>011-<wbr>Roasted Aloo Gobi</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:560px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:560px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>012-<wbr>Chicken Karahi Karachi</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:600px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:600px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2023-<wbr>ASI-<wbr>013-<wbr>Quick Beef Curry Pressure Cooker</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:640px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:640px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2023-<wbr>ASI-<wbr>014-<wbr>Chicken Karahi Quick</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:680px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:680px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>015-<wbr>Lemon Pepper Dahl</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:720px;width:411px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:720px;width:411px;height:20px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>016-<wbr>Lamb Spinach Karahi</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:760px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:760px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>017-<wbr>Beef Rendang Slow Cooker</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:59px;top:800px;width:411px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:59px;top:800px;width:411px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>018-<wbr> Thai Coconut Chicken Soup Slow Cooker</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:530px;top:121px;width:409px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:530px;top:121px;width:409px;height:19px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>019-<wbr>Red Braised Belly Pork Slow Cooker</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:530px;top:159px;width:409px;height:21px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:530px;top:159px;width:409px;height:21px;overflow:hidden;">
         <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>020-<wbr>Curried Aubergine and Chickpeas</span></p>
         <p class="Body"><span class="C-6"><br></span></p>
       </div>
@@ -263,35 +230,44 @@
       <a href="00page195.html">
         <img alt="Page 195 Asia Recipes" src="wpimages/wp5533b116.gif" style="position:absolute;left:60px;top:722px;width:409px;height:97px;">
       </a>
-      <div class="OBJ-7" style="position:absolute;left:449px;top:121px;width:21px;height:18px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:449px;top:121px;width:21px;height:18px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">190</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:449px;top:241px;width:21px;height:16px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:449px;top:241px;width:21px;height:16px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">191</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:449px;top:360px;width:21px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:449px;top:360px;width:21px;height:19px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">192</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:449px;top:481px;width:21px;height:18px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:449px;top:481px;width:21px;height:18px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">193</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:449px;top:601px;width:21px;height:19px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:449px;top:601px;width:21px;height:19px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">194</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:449px;top:720px;width:21px;height:20px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:449px;top:720px;width:21px;height:20px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">195</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:918px;top:123px;width:21px;height:16px;overflow:hidden;">
+      <div class="OBJ-6" style="position:absolute;left:918px;top:123px;width:21px;height:16px;overflow:hidden;">
         <p class="Body P-6"><span class="C-7">196</span></p>
       </div>
-      <div class="OBJ-8" style="position:absolute;left:10px;top:659px;width:41px;height:43px;overflow:hidden;">
+      <div class="OBJ-7" style="position:absolute;left:10px;top:659px;width:41px;height:43px;overflow:hidden;">
         <p class="Body P-7"><span class="C-8">ASI</span></p>
       </div>
-      <div class="OBJ-7" style="position:absolute;left:530px;top:200px;width:410px;height:20px;overflow:hidden;">
-        <p class="Body"><span class="C-6">&nbsp;2024-<wbr>STA-<wbr>009-<wbr>Coconut Lime Fish Soup</span></p>
+      <div class="OBJ-6" style="position:absolute;left:530px;top:200px;width:410px;height:20px;overflow:hidden;">
+        <p class="Body"><span class="C-6">&nbsp;2024-<wbr>ASI-<wbr>021-<wbr>Coconut Lime Fish Soup</span></p>
       </div>
       <a href="00page196.html">
         <img alt="Page 196 Asia Recipes" src="wpimages/wp5533b116.gif" style="position:absolute;left:531px;top:121px;width:409px;height:98px;">
+      </a>
+      <div class="OBJ-6" style="position:absolute;left:532px;top:240px;width:407px;height:21px;overflow:hidden;">
+        <p class="Body"><span class="C-6">2025-<wbr>ASI-<wbr>022-<wbr>Vietnamese Chicken Salad</span></p>
+      </div>
+      <div class="OBJ-6" style="position:absolute;left:918px;top:242px;width:21px;height:16px;overflow:hidden;">
+        <p class="Body P-6"><span class="C-7">197</span></p>
+      </div>
+      <a href="00page197.html">
+        <img alt="Page 197 Asia Recipes" src="wpimages/wp5533b116.gif" style="position:absolute;left:532px;top:240px;width:409px;height:98px;">
       </a>
     </div>
   </body>
